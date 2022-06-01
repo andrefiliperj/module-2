@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2{
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 18px;
+}
+
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 90%;
+}
+
+
+.chicken{
+    position: relative;
+    font-size: 125%;
+    font-weight: bold;
+    float: right;
+    border:2px solid black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 4;
+    background-color: rgb(221, 172, 189);
+    text-align: center;
+    width: 100px;
+}
+
+.beef{
+    position: relative;
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+    float: right;
+    border:2px solid black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 4;
+    background-color: rgb(238, 105, 127);
+    text-align: center;
+    width: 100px;
+}
+
+.sushi{
+    position: relative;
+    font-size: 125%;
+    font-weight: bold;
+    float: right;
+    border:2px solid black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 4;
+    background-color: rgb(240, 234, 161);
+    text-align: center;
+    width: 100px;
+}
+
+p {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/*small devices*/
+
+@media (max-width: 767px) {
+    div {
+        background-color: #a9a9aa;
+        width: 92%;
+        height: 30%;
+        border: 3px black solid;
+        padding: 0px;
+        margin: 4%;
+    }
+ 
+    }
+
+
+/*medium devices*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .a1, .a2 {
+        float: left;
+        background-color: #bbbbbe;
+        width: 48%;
+        height: 50%;
+        border: 3px black solid;
+        padding: 0px;
+        margin: 1%;
+        
+    }
+
+    .a3 {
+        clear: left;
+        background-color: #bbbbbe;
+        width: 98%;
+        height: 50%;
+        border: 3px black solid;
+        padding: 0px;
+        margin: 1%;
+    }
+}
+
+/*large devices*/
+
+@media (min-width: 992px) {
+    .a1, .a2, .a3 {
+        float: left;
+        background-color: #bbbbbe;
+        width: 31.33%;
+        height: 50%;
+        border: 3px black solid;
+        padding: 0px;
+        margin: 1%;
+    }
+}
